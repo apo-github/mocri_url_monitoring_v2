@@ -1,4 +1,4 @@
-# mocri url monitoring
+# mocri url monitoring ver.2
 
 ## mocri の画面を監視し，URL を取得するものです．
 
