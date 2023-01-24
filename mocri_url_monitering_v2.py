@@ -15,7 +15,7 @@ class Mocri:
     def __init__(self):
         
         # self.cmd_list = ['yt', 'yt stop']
-        self.path = "./key.txt" #your text path which is witten login pass and mailadress
+        self.path = "./key.txt" #your text path which is written login pass and mailaddress
         self.freespace_path = "enter your free space path"
 
         ##### driver option
@@ -53,7 +53,7 @@ class Mocri:
     def login(self):
         try:
             #### setting ####
-            path = self.path #password and mailadress text path
+            path = self.path #password and mailaddress text path
             with open(path) as f:
                 lines = f.readlines()
             mail_address = lines[0]
